@@ -59,6 +59,7 @@ minecraft {
     // Default run configurations.
     // These can be tweaked, removed, or duplicated as needed.
     runs {
+
         // applies to all the run configs below
         configureEach {
             workingDirectory project.file('run')
@@ -68,6 +69,8 @@ minecraft {
             // "SCAN": For mods scan.
             // "REGISTRIES": For firing of registry events.
             // "REGISTRYDUMP": For getting the contents of all registries.
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
             property 'forge.logging.markers', 'REGISTRIES'
 
             // Recommended logging level for the console
@@ -121,15 +124,19 @@ repositories {
     // flatDir {
     //     dir 'libs'
     // }
-    exclusiveContent {
-        forRepository {
-            maven {
-                url "https://cursemaven.com"
-            }
-        }
-        filter {
-            includeGroup "curse.maven"
-        }
+    // exclusiveContent {
+    //     forRepository {
+    //         maven {
+    //             url "https://cursemaven.com"
+    //         }
+    //     }
+    //     filter {
+    //         includeGroup "curse.maven"
+    //     }
+    // }
+
+    maven {
+        url "https://cursemaven.com"
     }
 }
 

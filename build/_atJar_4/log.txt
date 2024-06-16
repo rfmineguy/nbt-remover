@@ -1,5 +1,5 @@
 Java Launcher: /Users/rileyfischer/Library/Java/JavaVirtualMachines/openjdk-17.0.1/Contents/Home/bin/java
-Arguments: '--inJar, /Users/rileyfischer/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1/forge-1.20.1-47.3.1-injected.jar, --outJar, /Users/rileyfischer/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_official_1.20.1/forge-1.20.1-47.3.1_mapped_official_1.20.1.jar, --logFile, accesstransform.log, --atFile, /Users/rileyfischer/Documents/dev/minecraft-modding/forge/nbt-removal/build/_atJar_4/parent_at.cfg'
+Arguments: '--inJar, /Users/rileyfischer/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1/forge-1.20.1-47.3.1-injected.jar, --outJar, /Users/rileyfischer/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.1_mapped_parchment_2023.09.03-1.20.1.jar, --logFile, accesstransform.log, --atFile, /Users/rileyfischer/Documents/dev/minecraft-modding/forge/nbt-removal/build/_atJar_4/parent_at.cfg'
 Classpath:
  - /Users/rileyfischer/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.2.0/accesstransformers-8.2.0-fatjar.jar
 Working directory: /Users/rileyfischer/Documents/dev/minecraft-modding/forge/nbt-removal/build/_atJar_4
